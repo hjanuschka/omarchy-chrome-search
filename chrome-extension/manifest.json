@@ -1,0 +1,8 @@
+{
+  "manifest_version": 3,
+  "name": "Omarchy Chrome Search Bridge",
+  "version": "0.1.0",
+  "description": "Expose open tabs to the local Omarchy shell and focus selected tabs.",
+  "permissions": ["tabs", "nativeMessaging", "search", "alarms"],
+  "background": { "service_worker": "background.js" }
+}

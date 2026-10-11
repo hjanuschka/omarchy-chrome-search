@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "id": "hjanuschka.chrome-search",
+  "name": "Chrome Search",
+  "version": "0.1.0",
+  "author": "hjanuschka",
+  "description": "Search open Chromium tabs from the Omarchy shell",
+  "kinds": ["menu"],
+  "keepLoaded": true,
+  "entryPoints": { "menu": "ChromeSearch.qml" }
+}

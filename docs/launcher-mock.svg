@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" role="img" aria-label="Synthetic mockup of the Omarchy Chrome Search launcher with keyboard shortcuts">
+  <defs>
+    <linearGradient id="desktop" x2="1" y2="1"><stop stop-color="#17222d"/><stop offset="1" stop-color="#223849"/></linearGradient>
+    <filter id="shadow"><feDropShadow dx="0" dy="18" stdDeviation="25" flood-opacity=".5"/></filter>
+  </defs>
+  <rect width="1280" height="720" fill="url(#desktop)"/>
+  <rect width="1280" height="40" fill="#111b25"/>
+  <text x="30" y="26" fill="#e1ebf0" font-family="sans-serif" font-size="15">OMARCHY  /  WORKSPACE 1</text>
+  <text x="1130" y="26" fill="#d2dfe8" font-family="sans-serif" font-size="15">10:24  Wi-Fi</text>
+  <rect x="60" y="93" width="430" height="460" rx="12" fill="#283849"/>
+  <rect x="85" y="120" width="255" height="16" rx="8" fill="#648093"/>
+  <rect x="85" y="154" width="365" height="8" rx="4" fill="#3d5568"/>
+  <rect x="85" y="180" width="325" height="8" rx="4" fill="#3d5568"/>
+  <rect width="1280" height="680" y="40" fill="#070e16" fill-opacity=".67"/>
+  <rect x="240" y="77" width="800" height="574" rx="20" fill="#1c2934" stroke="#496578" stroke-width="2" filter="url(#shadow)"/>
+  <text x="278" y="120" fill="#a9c4d0" font-family="sans-serif" font-size="15" font-weight="bold">CHROME SEARCH</text>
+  <rect x="278" y="142" width="724" height="56" rx="10" fill="#293b4a" stroke="#547388"/>
+  <text x="298" y="179" fill="#f1f8fc" font-family="sans-serif" font-size="22">example</text>
+  <text x="278" y="226" fill="#9fb7c4" font-family="sans-serif" font-size="14">3 matches across 12 tabs  |  mock data only</text>
+  <rect x="272" y="244" width="736" height="65" rx="11" fill="#375267"/>
+  <rect x="288" y="256" width="42" height="42" rx="8" fill="#1c2934"/>
+  <text x="309" y="283" text-anchor="middle" fill="#f1f8fc" font-family="sans-serif" font-size="17">2</text>
+  <text x="349" y="272" fill="#f5fbfd" font-family="sans-serif" font-size="18">Example Docs - Quick start</text>
+  <text x="349" y="295" fill="#b6cbd6" font-family="sans-serif" font-size="14">docs.example.org</text>
+  <rect x="288" y="319" width="42" height="42" rx="8" fill="#2c4252"/>
+  <text x="309" y="346" text-anchor="middle" fill="#dcecf2" font-family="sans-serif" font-size="17">3</text>
+  <text x="349" y="337" fill="#dbe8ef" font-family="sans-serif" font-size="18">Example Mail - Inbox</text>
+  <text x="349" y="359" fill="#91acbc" font-family="sans-serif" font-size="14">mail.example.com</text>
+  <rect x="288" y="382" width="42" height="42" rx="8" fill="#2c4252"/>
+  <text x="309" y="409" text-anchor="middle" fill="#dcecf2" font-family="sans-serif" font-size="17">7</text>
+  <text x="349" y="400" fill="#dbe8ef" font-family="sans-serif" font-size="18">Example Board - Project</text>
+  <text x="349" y="422" fill="#91acbc" font-family="sans-serif" font-size="14">board.example.net</text>
+  <rect x="278" y="450" width="724" height="105" rx="11" fill="#31495b"/>
+  <text x="297" y="483" fill="#f4faff" font-family="sans-serif" font-size="19">Example Docs - Quick start</text>
+  <text x="297" y="510" fill="#c4d9e3" font-family="sans-serif" font-size="15">https://docs.example.org/guide</text>
+  <text x="297" y="537" fill="#a9c9d9" font-family="sans-serif" font-size="13">WORKSPACE 2  |  docs.example.org</text>
+  <text x="278" y="602" fill="#bfd3df" font-family="sans-serif" font-size="15">Enter  focus tab        Ctrl+Enter  center window        Esc  close</text>
+  <rect x="730" y="665" width="510" height="37" rx="9" fill="#0d1821" stroke="#527184"/>
+  <text x="985" y="689" text-anchor="middle" fill="#d7ecf6" font-family="sans-serif" font-size="14">Super+Shift+C  open search / return summoned window</text>
+</svg>
