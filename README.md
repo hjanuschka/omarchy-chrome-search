@@ -1,12 +1,14 @@
+![Chrome Search for Omarchy header illustration](docs/header.svg)
+
 # Omarchy Chrome Search
 
-A native [Omarchy](https://omarchy.org/) shell launcher for open Chrome tabs. Search by title or URL, see each tab's Hyprland workspace, and focus the exact tab/window. A second action temporarily summons the entire Chrome window over your current workspace without changing its original tiling layout.
+A native [Omarchy](https://omarchy.org/) shell launcher for open Chrome tabs. Search by title or URL and see each tab's Hyprland workspace.
 
-The illustrations below are **synthetic mockups** made with reserved example domains. They are not captures of anyone's browser or desktop.
+**Peek at a tab:** press **Super+Shift+C** to open the launcher, select a tab, then press **Ctrl+Enter**. This pulls its **entire Chrome window into a centered view over your current workspace**, with that tab selected. Press **Super+Shift+C again from anywhere** to end the peek: the window goes back to its original tile, its previous tab is reselected, and your original window regains focus. No second visit to the launcher.
 
-![Mock Chrome Search launcher with workspace labels and shortcut hints](docs/launcher-mock.svg)
+![Chrome Search launcher illustration with workspace labels and shortcut hints](docs/launcher-mock.svg)
 
-![Mock summoned Chrome window with direct return shortcut](docs/summon-mock.svg)
+![Illustration of Chrome centered over the current workspace](docs/summon-mock.svg)
 
 ## Install
 
@@ -48,12 +50,12 @@ The installer registers Native Messaging manifests for Google Chrome and Chromiu
 
 | Shortcut | Action |
 | --- | --- |
-| Super+Shift+C | Open Chrome Search; if a window is summoned, return it immediately instead |
+| Super+Shift+C | Open search, or end the current peek and put Chrome back |
 | Enter in launcher | Focus the selected tab in its existing window |
-| Ctrl+Enter in launcher | Summon the selected Chrome window over the current workspace |
+| **Ctrl+Enter in launcher** | **Peek: pull the whole Chrome window into a centered view on this workspace** |
 | Up/Down, Escape | Select a result, close launcher |
 
-Press **Super+Shift+C again from anywhere** to unsummon. You do not need to reopen the launcher. The original workspace, focused window, and previously active tab are restored. While Chrome is summoned, an Omarchy-shell window holds its original tiling slot, so returning it does not reorder the other tiles. You can also run `omarchy-chrome-search restore` from a terminal.
+Press **Super+Shift+C again from anywhere** to end the peek. You do not need to reopen the launcher. The original workspace, focused window, and previously active tab are restored. While Chrome is summoned, an Omarchy-shell window holds its original tiling slot, so returning it does not reorder the other tiles. You can also run `omarchy-chrome-search restore` from a terminal.
 
 Only one Chrome window can be summoned at a time. Summoning a fullscreen window or one already in a special workspace is unsupported. If you close or restart `omarchy-shell` while a window is summoned, its placeholder disappears, so exact tiling restoration is no longer possible.
 

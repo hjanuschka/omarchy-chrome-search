@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" role="img" aria-label="Synthetic mockup of a centered Chrome window and the return shortcut">
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" role="img" aria-label="Illustration of a centered Chrome window and the return shortcut">
   <defs>
     <linearGradient id="desktop" x2="1" y2="1"><stop stop-color="#142330"/><stop offset="1" stop-color="#344e5c"/></linearGradient>
     <filter id="shadow"><feDropShadow dx="0" dy="17" stdDeviation="18" flood-opacity=".55"/></filter>
@@ -24,7 +24,7 @@
   <text x="222" y="177" fill="#415d70" font-family="sans-serif" font-size="14">https://docs.example.org/guide</text>
   <rect x="206" y="209" width="240" height="23" rx="8" fill="#b4ccd7"/>
   <text x="206" y="280" fill="#1d4055" font-family="sans-serif" font-size="38" font-weight="bold">Example Docs</text>
-  <text x="206" y="311" fill="#567182" font-family="sans-serif" font-size="17">A synthetic browser window for the README. No real tabs or URLs.</text>
+  <text x="206" y="311" fill="#567182" font-family="sans-serif" font-size="17">Peek at a tab, then return right where you started.</text>
   <rect x="206" y="340" width="405" height="249" rx="12" fill="#cfdee6"/>
   <rect x="230" y="365" width="280" height="16" rx="8" fill="#a7c0cf"/>
   <rect x="230" y="398" width="339" height="10" rx="5" fill="#b5cad5"/>
@@ -34,5 +34,5 @@
   <rect x="665" y="399" width="358" height="10" rx="5" fill="#bfd0d9"/>
   <rect x="665" y="422" width="319" height="10" rx="5" fill="#bfd0d9"/>
   <rect x="410" y="658" width="460" height="44" rx="10" fill="#132532" stroke="#6e9ab1"/>
-  <text x="640" y="686" text-anchor="middle" fill="#edfaff" font-family="sans-serif" font-size="17">Super+Shift+C  return to original workspace and tab</text>
+  <text x="640" y="686" text-anchor="middle" fill="#edfaff" font-family="sans-serif" font-size="17">Super+Shift+C  end peek: restore original tab and tile</text>
 </svg>

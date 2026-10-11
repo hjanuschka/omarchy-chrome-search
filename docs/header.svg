@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="360" viewBox="0 0 1280 360" role="img" aria-label="Chrome Search for Omarchy: search tabs, peek in a centered window, and return with one shortcut">
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#111e2b"/><stop offset=".58" stop-color="#1b3545"/><stop offset="1" stop-color="#274752"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#94dbda"/><stop offset="1" stop-color="#68b3d4"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#a8d6e0" stroke-opacity=".07"/></pattern>
+    <filter id="glow"><feGaussianBlur stdDeviation="38"/></filter>
+    <filter id="shadow"><feDropShadow dx="0" dy="15" stdDeviation="18" flood-opacity=".55"/></filter>
+  </defs>
+  <rect width="1280" height="360" rx="18" fill="url(#background)"/>
+  <rect width="1280" height="360" rx="18" fill="url(#grid)"/>
+  <ellipse cx="1070" cy="32" rx="235" ry="165" fill="#6fbfcb" opacity=".12" filter="url(#glow)"/>
+  <rect x="45" y="38" width="175" height="29" rx="14" fill="#304e5b" stroke="#75a9b6" stroke-opacity=".55"/>
+  <circle cx="61" cy="52" r="5" fill="#8fd7d4"/>
+  <text x="75" y="57" fill="#c6e3eb" font-family="sans-serif" font-size="13" font-weight="bold" letter-spacing="1">OMARCHY PLUGIN</text>
+  <text x="44" y="134" fill="#f4faff" font-family="sans-serif" font-size="57" font-weight="bold" letter-spacing="-2">Chrome Search</text>
+  <text x="47" y="174" fill="#b4d0dc" font-family="sans-serif" font-size="20">Find any tab. Peek without leaving your workspace.</text>
+  <text x="47" y="205" fill="#b4d0dc" font-family="sans-serif" font-size="20">Put everything back exactly where it was.</text>
+  <rect x="46" y="242" width="165" height="44" rx="10" fill="#273f4e" stroke="#81c2cb"/>
+  <text x="128" y="268" fill="#e6f8fb" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="bold">Super+Shift+C</text>
+  <text x="127" y="309" fill="#91b8c8" text-anchor="middle" font-family="sans-serif" font-size="13">SEARCH / RETURN</text>
+  <path d="M223 264h46m-9-7 9 7-9 7" fill="none" stroke="#76b3c4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="280" y="242" width="142" height="44" rx="10" fill="url(#accent)"/>
+  <text x="351" y="268" fill="#142a38" text-anchor="middle" font-family="sans-serif" font-size="17" font-weight="bold">Ctrl+Enter</text>
+  <text x="352" y="309" fill="#91b8c8" text-anchor="middle" font-family="sans-serif" font-size="13">PEEK AT A TAB</text>
+  <g transform="translate(694 34) rotate(-3 270 160)" filter="url(#shadow)">
+    <rect width="526" height="287" rx="16" fill="#203341" stroke="#6c9eaf" stroke-width="2"/>
+    <rect x="21" y="21" width="484" height="48" rx="9" fill="#344f60"/>
+    <circle cx="47" cy="45" r="11" fill="none" stroke="#a0d9dd" stroke-width="3"/>
+    <path d="m55 53 8 8" stroke="#a0d9dd" stroke-width="3" stroke-linecap="round"/>
+    <text x="80" y="52" fill="#ecf8fc" font-family="sans-serif" font-size="17">example docs</text>
+    <rect x="18" y="88" width="489" height="63" rx="10" fill="#426379"/>
+    <rect x="32" y="101" width="38" height="38" rx="8" fill="#203341"/>
+    <text x="51" y="127" text-anchor="middle" fill="#e9f8fb" font-family="sans-serif" font-size="18">2</text>
+    <text x="86" y="113" fill="#f2fbff" font-family="sans-serif" font-size="17">Example Docs - Quick start</text>
+    <text x="86" y="136" fill="#b8d9e7" font-family="sans-serif" font-size="13">docs.example.org</text>
+    <rect x="32" y="164" width="38" height="38" rx="8" fill="#324f60"/>
+    <text x="51" y="190" text-anchor="middle" fill="#d4eaf3" font-family="sans-serif" font-size="18">3</text>
+    <text x="86" y="178" fill="#dbeaf0" font-family="sans-serif" font-size="17">Example Mail - Inbox</text>
+    <text x="86" y="200" fill="#91b8c8" font-family="sans-serif" font-size="13">mail.example.com</text>
+    <rect x="22" y="225" width="482" height="42" rx="8" fill="#172c39"/>
+    <text x="263" y="251" text-anchor="middle" fill="#9fdfdf" font-family="sans-serif" font-size="15" font-weight="bold">Ctrl+Enter  PEEK IN CENTERED CHROME</text>
+  </g>
+  <rect x=".5" y=".5" width="1279" height="359" rx="17.5" fill="none" stroke="#6eaaba" stroke-opacity=".5"/>
+</svg>

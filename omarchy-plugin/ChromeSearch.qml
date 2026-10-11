@@ -109,7 +109,7 @@ Item {
     implicitHeight: 400
     Text {
       anchors.centerIn: parent
-      text: "Chrome window summoned"
+      text: "Chrome window peeked"
       color: Color.menu.text
     }
   }
@@ -185,7 +185,7 @@ Item {
         }
         Text {
           textFormat: Text.PlainText
-          text: root.error || (root.hasSummoned ? "Chrome window summoned | Super+Shift+C returns it" :
+          text: root.error || (root.hasSummoned ? "Peek active | Super+Shift+C puts Chrome back" :
             (search.text ? root.results.length + " matches across " + root.tabs.length + " tabs" : root.tabs.length + " open tabs"))
           color: Color.menu.text
           opacity: 0.65
@@ -198,7 +198,7 @@ Item {
           color: Color.menu.selectedBackground
           Text {
             anchors.centerIn: parent
-            text: "Return centered Chrome window to its original tile  [Super+Shift+C]"
+            text: "End peek and restore the original tile  [Super+Shift+C]"
             color: Color.menu.selectedText
             font.family: Style.font.menuFamily
           }
@@ -304,8 +304,8 @@ Item {
           }
         }
         Text {
-          text: root.hasSummoned ? "Super+Shift+C or Ctrl+Enter: return window" :
-            (root.results.length > 0 ? "Enter: focus    Ctrl+Enter: center window" :
+          text: root.hasSummoned ? "Super+Shift+C: end peek and return" :
+            (root.results.length > 0 ? "Enter: focus tab    Ctrl+Enter: peek (center Chrome)" :
               "Enter: search with Chromium's default engine")
           color: Color.menu.text
           opacity: 0.7
